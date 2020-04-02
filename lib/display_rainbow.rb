@@ -5,5 +5,5 @@ def display_rainbow(array)
   array.each do |color|
       colors << "#{color[0].upcase}: #{color}"
   end
-  return colors.join(", ")
+  puts colors.join(", ")
 end
